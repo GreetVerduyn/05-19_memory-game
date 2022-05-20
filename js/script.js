@@ -1,0 +1,1 @@
+let cards = [{butterfly}, {dog}, {dolphin}, {elephant}, {flamingo},{frog}, {giraffe}, {lion}, {pig}, {squirrel}]

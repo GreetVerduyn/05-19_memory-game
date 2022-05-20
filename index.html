@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Memory</title>
-    <link rel= "stylesheet" href="css/styles.css"
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<div class=" cards">
-    <div class="dog">
-        <img src="media/dog.png" class="front" alt="dog">
-        <img src="media/back_psyduck.png" class="back" alt="back">
-    </div><div class="">
-        <img src="media/pig.png" class="front" alt="pig">
-        <img src="media/back_psyduck.png" class="back" alt="back">
+<h1 class="title">Memory Game</h1>
+<div class="infoGame">
+    <ul>
+        <li><b>Click play to start the game.</b></li>
+        <li>Each turn, you flip over two cards (one at a time, so you can see the first one before picking the second).</li>
+        <li>If the two cards match, then they are removed from the game, otherwise they are returned.</li>
+        <li>The game ends when all the cards are removed.</li>
+    </ul>
+</div>
+
+<button class="start">Play</button>
+<div class=" allCards">
+    <div class="dog card">
+        <img src="media/dog.png" class="front" alt="dog" style="display: inline;">
+        <img src="media/back_psyduck.png" class="back" alt="back" style="display:none;">
+    </div>
+    <div class="pig card">
+        <img src="media/pig.png" class="front" alt="pig" style="display: inline;">
+        <img src="media/back_psyduck.png" class="back" alt="back" style="display: none;">
     </div>
 
 

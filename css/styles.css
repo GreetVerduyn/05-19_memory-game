@@ -1,0 +1,31 @@
+.front {
+    box-shadow: 0px 0px 2px 3px dodgerblue;
+    padding: 5px 5px;
+}
+
+.back {
+    box-shadow: 0px 0px 2px 3px purple;
+    padding: 5px 5px;
+}
+
+.allCards {
+    display: flex;
+    background-color: powderblue;
+    border-color: darkslateblue;
+    border-style: solid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.front {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+
+.back {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
