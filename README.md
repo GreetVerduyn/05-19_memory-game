@@ -8,7 +8,10 @@ https://greetverduyn.github.io/05-19_memory-game/
 ## MY CODE
 - [x] 20 cards, 10 different images + back
 - [x] text: explanation game
-- [] array with all cards (needs to be mapped)
+- [x] array with all cards (needs to be mapped)
+- [] lay out game
+- [] add function to play button
+- [] display cards dynamically in the game (template)
 - [] random ordering of the cards
 - [] choice (click): turn card 1 <-> turn card 2: 
   - same => ok

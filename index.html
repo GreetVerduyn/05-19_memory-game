@@ -17,19 +17,19 @@
     </ul>
 </div>
 
-<button class="start">Play</button>
-<div class=" allCards">
-    <div class="dog card">
-        <img src="media/dog.png" class="front" alt="dog" style="display: inline;">
-        <img src="media/back_psyduck.png" class="back" alt="back" style="display:none;">
-    </div>
-    <div class="pig card">
-        <img src="media/pig.png" class="front" alt="pig" style="display: inline;">
-        <img src="media/back_psyduck.png" class="back" alt="back" style="display: none;">
-    </div>
+<button onclick="play()" class="start">Replay</button>
 
-
+<div class="allCards" id="allCards">
+    <template id="templateCards">
+        <div class="card">
+            <img src="media/dog.png" class="front" alt="" style="display: inline;">
+            <img src="media/back_psyduck.png" class="back" alt="back" style="display:none;">
+        </div>
+    </template>
 </div>
+
+
+
 <script src="js/script.js"></script>
 </body>
 </html>
