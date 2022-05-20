@@ -1,14 +1,22 @@
-# 0# Title: Memory game
-
-- Repository: `Memory-game`
-- Type of Challenge: `Learning Challenge`
-- Duration: take your time
-- Deployment strategy: Github page
-- Team challenge : `solo
+# Title: Memory game
+https://greetverduyn.github.io/05-19_memory-game/
 
 ## Learning Objectives
 - Change things in the DOM (Aka canvas = cheating)
 - Array manipulation
+
+## MY CODE
+- [x] 20 cards, 10 different images + back
+- [x] text: explanation game
+- [] array with all cards (needs to be mapped)
+- [] random ordering of the cards
+- [] choice (click): turn card 1 <-> turn card 2: 
+  - same => ok
+  - different card: turn back  
+- [] create a flexbox to do the positioning of the card
+- [] template HTML to make content dynamic
+
+
 
 ## The Mission
 We want to recreate the game `memory`. It is a game where  you have a bunch of cards. Each card contains an image. 
