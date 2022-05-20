@@ -8,10 +8,12 @@ https://greetverduyn.github.io/05-19_memory-game/
 ## MY CODE
 - [x] 20 cards, 10 different images + back
 - [x] text: explanation game
-- [x] array with all cards (needs to be mapped)
-- [] lay out game
-- [] add function to play button
-- [] display cards dynamically in the game (template)
+- [x] array with all cards (needs to be mapped) , 
+- [x] lay out game: difficult, I tried to use display flex
+- [x] add function to play button
+  - [] display cards dynamically in the game (template: code was very long so I created a template (I had to search a lot for this)
+    // loop over array of cards
+    // for each card in array: display the card in allCards based on template 'templateCards' + change some 'personal' information)
 - [] random ordering of the cards
 - [] choice (click): turn card 1 <-> turn card 2: 
   - same => ok
@@ -26,12 +28,6 @@ We want to recreate the game `memory`. It is a game where  you have a bunch of c
 Of each image there are exactly two cards. The cards are placed in a random order. You get to turn them around. 
 If you turned around two cards they either turn back so you can't see their image if they did not match. 
 And if they did match they stay image face visible.
-
-### Must-have features
-- Clicking cards turns them around
-- Randomly position the cards
-- Readme, but that shouldn't even have to be said
-- Explanation on the page itself
 
 ### Nice-to-have features
 - Make it playable by keyboard
