@@ -99,7 +99,6 @@ function renderCards() {
         })
         allCards.append(item);
     }
-}
 
 function toggleCard(id, name) {
 

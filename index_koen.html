@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<h1 class="title">Memory Game</h1>
+<div class="infoGame">
+    <ul>
+        <li><b>Click play to start the game.</b></li>
+        <li>Each turn, you flip over two cards (one at a time, so you can see the first one before picking the second).</li>
+        <li>If the two cards match, then they are removed from the game, otherwise they are returned.</li>
+        <li>The game ends when all the cards are removed.</li>
+    </ul>
+</div>
+
+<div class="allCards" id="allCards">
+
+    <div class="card">
+        <img onclick="flipCard('butterfly2', 'butterfly')" src="media/back_psyduck.png" class="butterfly" id="butterfly2" alt="">
+    </div>
+    <div class="card">
+        <img onclick="flipCard('dog1', 'dog')" src="media/back_psyduck.png" class="dog" id="dog1" alt="">
+    </div>
+    <div class="card">
+        <img onclick="flipCard('butterfly1', 'butterfly')" src="media/back_psyduck.png" class="butterfly" id="butterfly1" alt="">
+    </div>
+    <div class="card">
+        <img onclick="flipCard('dolphin1', 'dolphin')" src="media/back_psyduck.png" class="dolphin" id="dolphin1" alt="">
+    </div>
+    <div class="card">
+        <img onclick="flipCard('dog2', 'dog')" src="media/back_psyduck.png" class="dog" id="dog2" alt="">
+    </div>
+    <div class="card">
+        <img onclick="flipCard('dolphin2', 'dolphin')" src="media/back_psyduck.png" class="dolphin" id="dolphin2" alt="">
+    </div>
+    <div class="card">
+        <img onclick="flipCard('elephant1', 'elephant')" src="media/back_psyduck.png" class="elephant" id="elephant1" alt="">
+    </div>
+    <div class="card">
+        <img onclick="flipCard('elephant2', 'elephant')" src="media/back_psyduck.png" class="elephant" id="elephant2" alt="">
+    </div>
+</div>
+
+
+<script src="js/script_koen.js"></script>
+</body>
+</html>

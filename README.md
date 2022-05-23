@@ -11,13 +11,14 @@ https://greetverduyn.github.io/05-19_memory-game/
 - [x] array with all cards (needs to be mapped) , 
 - [x] lay out game: difficult, I tried to use display flex
 - [x] add function to play button
-  - [] display cards dynamically in the game (template: code was very long so I created a template (I had to search a lot for this)
+  - [x] display cards dynamically in the game (template: code was very long so I created a template (I had to search a lot for this)
     // loop over array of cards
     // for each card in array: display the card in allCards based on template 'templateCards' + change some 'personal' information)
-- [] random ordering of the cards
+- [] random ordering of the cards: 
 - [] choice (click): turn card 1 <-> turn card 2: 
   - same => ok
   - different card: turn back  
+  - TIMER NODIG OM KAARTEN OM TE DRAAIEN
 - [] create a flexbox to do the positioning of the card
 - [] template HTML to make content dynamic
 
